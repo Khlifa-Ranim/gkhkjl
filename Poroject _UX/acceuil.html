@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+</head>
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        font-weight: bold;
+        color: aliceblue;
+    }
+
+
+    .container10 {
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        background: url('img/acceuil.jpg.jpg');
+        background-repeat: no-repeat;
+        /* border: solid 2px black;*/
+        background-size: 1343px 350px;
+        width: 1343px;
+        height: 350px;
+    }
+
+    #gsearch {
+        width: 300px;
+        padding: 5px;
+    }
+
+    #submit {
+        padding: 5px;
+    }
+
+    .logo {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    .container2 {
+
+        background-color: rgb(25, 183, 189);
+        height: 65px;
+        width: 1110px;
+        margin-top: 11px;
+        margin-left: 210px;
+        border: solid 2px black;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    ul li a {
+        color: aliceblue;
+        letter-spacing: 0.1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    ul li a:hover {
+        color: rgb(202, 74, 23);
+        text-decoration: underline;
+    }
+
+    .menu li {
+        float: left;
+        padding: 10px;
+
+    }
+
+    .menu li a {
+        text-decoration: none;
+    }
+
+    form {
+        padding: 10px;
+        text-align: right;
+    }
+
+    .container3 {
+        margin-top: 115px;
+        margin-left: 750px;
+        width: 370px;
+        height: 300px;
+    }
+
+    h1 {
+        background-color: aliceblue;
+        color: black;
+    }
+
+    .en_savoir {
+
+        text-decoration: none;
+        color: rgb(25, 183, 189);
+        font-size: 30px;
+    }
+
+    div a:hover {
+        color: rgb(202, 74, 23);
+        text-decoration: underline;
+    }
+
+    .container20 {
+        margin-top: 350px;
+        margin-left: 0px;
+        position: absolute;
+        border: solid 2px black;
+        width: 1343px;
+        height: 370px;
+        color: black;
+    }
+
+    td img {
+        width: 300px;
+        height: 200px;
+    }
+
+    h2 {
+        color: rgb(0, 153, 255);
+    }
+
+    table {
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+
+</style>
+
+<body>
+
+    <div class="container10">
+        <img src="img/logo_Educaser.jpg.png" class="logo">
+        <div class="container2">
+            <nav>
+                <ul class="menu">
+                    <li><a href="inscription.html">Inscription</a></li>
+                    <li><a href="formation.html">Formation</a></li>
+                </ul>
+                <form action="">
+                    <input type="search" id="gsearch" placeholder="recherche"> <input type="submit" id="submit">
+                </form>
+            </nav>
+            <div class="container3">
+                <h1>Votre avenir commence ici</h1>
+                <a href="formation.html" class="en_savoir">EN SAVOIR PLUS</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="container20">
+        <div class="tab">
+            <table>
+                <tr>
+                    <td><img src="img/certif.jpj.webp" class="img_tab" alt=""></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><img src="img/education.jpg.jpg" class="img_tab" alt=""></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><img src="img/plan.jpg.jpg" class="img_tab" alt=""></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Diplome Accrédités</h2>
+                        <p>Le niveau de nos parcours certifiants <br> est reconnu par l'État français</p>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <h2>Mentorat</h2>
+                        <p>Chaque semaine, un expert <br> métier visé suit vos progrès</p>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <h2>Embauché ou remboursé</h2>
+                        <p>Vous trouvez un emploi sous 6 mois <br> ou nous remboursons vos frais de scolarité*</p>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>
